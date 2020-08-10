@@ -28,3 +28,8 @@ langArr["ru"] = ["Пн", " Вт", " Ср", " Чт", " Пт", " Сб", " Вс"];
 langArr["en"] = ["Monday", " Tuesday", " Wednesday", " Thursday", " Friday", " Saturday", " Sunday"];
 
 console.log(langArr[lang]);
+
+let namePerson;
+namePerson = 'Артем';
+
+console.log((namePerson === 'Артем') ? 'директор' : (namePerson === 'Максим') ? 'преподаватель' : 'студент');
