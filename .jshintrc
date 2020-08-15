@@ -16,5 +16,6 @@
 	"noempty": true,
 	"funcscope": true,
 	"node": true,
-	"sub": true
+	"sub": true,
+	"expr": true
 }
