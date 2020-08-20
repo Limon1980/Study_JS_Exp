@@ -8,6 +8,10 @@ let inpText = inp.oninput = function(){
  return inp.value;
 };
 
+function clear() {
+  inp.value = '';
+  }
+
 const but = document.querySelector('button');
 
 but.addEventListener('click', function(){
@@ -16,6 +20,7 @@ but.addEventListener('click', function(){
   console.log(liAll);
   liAll[len-1].insertAdjacentHTML('afterend', `<li>${inpText()[0].toUpperCase() + inpText().substr(1)}</li>`);
   console.log('Номер');
+  clear();
 });
 
 
